@@ -1,0 +1,66 @@
+{
+    "To Do": [
+        {
+            "Description": "Tinder for Local Restaurants - App that helps solve the problem of picking a restaurant.",
+            "title": "Brainstorming",
+            "id": 1,
+            "comments": ["test comment", "test comment 2"],
+            "priority": "Low"
+        },
+        {
+            "Description": "Progress Pics web app for dieters. Timestamps each photo. Eliminates fraud and it places a watermark on them.",
+            "title": "Research",
+            "id": 2,
+            "comments": [],
+            "priority": "High"
+        },
+        {
+            "Description": "Eat this. Not that. - Type in unhealthy food that youre craving and it gives you a list of healthy alternatives with recipes or options to buy online.",
+            "title": "WireFrames",
+            "id": 3,
+            "comments": [],
+            "priority": "Low"
+        }
+    ],
+    "On Progress": [
+        {
+            "Description": "Derek Sivers on spaced repitition http://sivers.org/srs.",
+            "title": "Onboarding Illustrations",
+            "img":"https://images.unsplash.com/photo-1579762715118-a6f1d4b934f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=384&q=80",
+            "id": 12,
+            "comments": [],
+            "priority": "Low"
+        },
+        {
+            "Description": "ANKI Learning Method http://www.jackkinsella.ie/2011/12/05/janki-method.html.",
+            "title": "Kalanithi",
+            "id": 13,
+            "comments": [],
+            "priority": "Low"
+        }
+    ],
+    "Done": [
+        {
+            "Description": "- requests a positive review first and then feeds that into social media.",
+            "title": "Kalanithi",
+            "id": 14,
+            "img":"https://images.unsplash.com/photo-1576595580361-90a855b84b20?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+            "comments": [],
+            "priority": "Completed"
+        },
+        {
+            "Description": "- uses the words unlock or level up to the bonus to some prize that is scarce (Highest rated jerky of all time, secret flavor, secret style).",
+            "title": "Kalanithi",
+            "id": 15,
+            "comments": [],
+            "priority": "Completed"
+        },
+        {
+            "Description": "- gives you some free bonus points and then you ad to it (reciprocity - I give you something, you give me something)",
+            "title": "Kalanithi",
+            "id": 16,
+            "comments": [],
+            "priority": "Completed"
+        }
+    ]
+}

@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Dashboard from './components/Dashboard';
+import NavBar from './components/NavBar';
+import SideBar from './components/SideBar';
 
 function App() {
+  
+  const [project , setProject]=useState('Mobile App');
+  const handleClick=(e)=>{
+    setProject(e);
+  }
+  console.log(project);
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='flex h-full px-1 shadow-sm font-inter rounded-2xl'>
+              <SideBar handleClick={handleClick}/>
+        <div className='relative flex flex-col flex-1 w-full'>
+              <NavBar/>
+              <Dashboard title={project}/>
+        </div>
+        
     </div>
   );
 }
 
 export default App;
+
